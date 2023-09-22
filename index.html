@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Audio player by Egor Cherkashin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
         <div class="image">
-            <img src="" alt="Capybara">
+            <img src="Capybara.jpeg" alt="Capybara" width="471" height="469">
         </div>
-        <div class="song">
-            <div class="title">
-
+        <div class="container">
+            <div class="song">
+                <div class="title">
+                    <p class="text">Capybara</p>
+                </div>
+                <div class="author">
+                    <p class="text" >Betsy</p>
+                </div>
+                <div class="scrollBar">
+                    <div class="line"></div>
+                    <div class="ellipse"></div>
+                    <div class="time">
+                        <div class="currentTime text">0:01</div>
+                        <div class="songDuration text">1:54</div>
+                    </div>
+                </div>
             </div>
-            <div class="author">
-
+            <div class="controls">
+                <div class="previousSong"><img src="images/previousSong.svg" alt=""></div>
+                <div class="playPause"><img src="images/playPause.svg" alt=""></div>
+                <div class="nextSong"><img src="images/nextSong.svg" alt=""></div>
             </div>
-            <div class="scrollBar">
-                <div class="line"></div>
-                <div class="ellipse"></div>
-                <div class="currentTime"></div>
-                <div class="songDuration"></div>
-            </div>
-        </div>
-        <div class="controls">
-            <div class="previousSong"></div>
-            <div class="playPause"></div>
-            <div class="nextSong"></div>
         </div>
     </div>
 </body>
