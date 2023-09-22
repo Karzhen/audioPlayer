@@ -9,9 +9,9 @@
 <body>
     <div class="wrapper">
         <div class="image">
-            <img src="images/Capybara.jpeg" alt="Capybara" width="471" height="469">
+            <img src="images/Capybara.jpeg" class="cover" alt="Capybara" width="471" height="469">
         </div>
-        <div class="container">
+        <div class="player">
             <div class="song">
                 <div class="title">
                     <p class="text">Capybara</p>
@@ -19,21 +19,23 @@
                 <div class="author">
                     <p class="text" >Betsy</p>
                 </div>
+                <audio src="audio/Betsy%20Capybara.mp3" class="audio"></audio>
                 <div class="scrollBar">
                     <div class="line"></div>
                     <div class="ellipse"></div>
-                    <div class="time">
-                        <div class="currentTime text">0:01</div>
-                        <div class="songDuration text">1:54</div>
-                    </div>
+                </div>
+                <div class="time">
+                    <div class="currentTime text">0:01</div>
+                    <div class="songDuration text">1:54</div>
                 </div>
             </div>
             <div class="controls">
-                <div class="previousSong"><img src="images/previousSong.svg" alt=""></div>
-                <div class="playPause"><img src="images/playPause.svg" alt=""></div>
-                <div class="nextSong"><img src="images/nextSong.svg" alt=""></div>
+                <div class="button previousSong"><img src="images/previousSong.svg" alt=""></div>
+                <div class="button playBtn"><img class="playPause" src="images/playPause.svg" alt=""></div>
+                <div class="button nextSong"><img src="images/nextSong.svg" alt=""></div>
             </div>
         </div>
     </div>
+<script src="main.js"></script>
 </body>
 </html>
