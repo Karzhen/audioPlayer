@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     background-color: #E9E9E9;
     display: flex;
     justify-content: center;
@@ -52,6 +52,10 @@ body {
     font-style: normal;
     line-height: normal;
 }
+.text_logo {
+    display: flex;
+    justify-content: space-between;
+}
 
 .title {
     font-size: 25px;
@@ -63,6 +67,17 @@ body {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 45px;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 50px;
+    margin-top: 35px;
+}
+
+.logo > img {
+    width: 100%;
+    max-height: 100%;
 }
 
 .text {
